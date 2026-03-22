@@ -1,0 +1,18 @@
+# Example strategy configuration
+# Add your own factors to the list below
+name: momentum_example
+description: Demo strategy — replace with your own factors
+factors:
+  - name: my_momentum
+    column: my_momentum
+    weight: 1.0
+  - name: my_reversal
+    column: my_reversal
+    weight: 0.5
+signal:
+  long_threshold: 0.5
+  short_threshold: -0.5
+risk:
+  position_fraction: 0.1
+  stop_loss: 0.02
+  take_profit: 0.04

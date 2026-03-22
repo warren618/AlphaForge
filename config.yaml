@@ -1,0 +1,28 @@
+# AlphaForge Configuration
+# All parameters are centralized here — no magic numbers in code.
+
+instruments:
+  - instId: BTC-USDT-SWAP
+    alias: BTC
+    min_size: 0.001
+    tick_size: 0.1
+  - instId: ETH-USDT-SWAP
+    alias: ETH
+    min_size: 0.01
+    tick_size: 0.01
+  - instId: SOL-USDT-SWAP
+    alias: SOL
+    min_size: 0.1
+    tick_size: 0.001
+
+timeframes:
+  signal: "5m"
+  trend: "15m"
+  regime: "1H"
+
+backtest:
+  initial_capital: 10000
+  leverage: 3
+  fee_rate: 0.0006
+  slippage_bps: 2
+  max_drawdown_pct: 0.15

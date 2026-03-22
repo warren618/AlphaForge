@@ -1,0 +1,8 @@
+.env
+.claude/
+__pycache__/
+*.pyc
+*.log
+.ipynb_checkpoints/
+data/
+logs/
