@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="asset/alphaforge.png" alt="AlphaForge" width="600">
+  <img src="asset/alphaforge.png" alt="AlphaForge" width="280">
 </p>
 
 <h1 align="center">AlphaForge</h1>
