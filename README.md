@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="asset/alphaforge.png" alt="AlphaForge" width="600">
+</p>
+
 <h1 align="center">AlphaForge</h1>
 
 <p align="center">
